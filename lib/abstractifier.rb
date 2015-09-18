@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 class Abstractifier
   DEFAULT_MINIMUM_LENGTH = 80
   DEFAULT_MAXIMUM_LENGTH = 250
