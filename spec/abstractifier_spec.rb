@@ -1,4 +1,5 @@
 # encoding: UTF-8
+# rubocop:disable Metrics/LineLength
 
 require 'abstractifier'
 
