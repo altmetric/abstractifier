@@ -1,10 +1,5 @@
 require 'abstractifier'
 
-FIXTURE_PATH = File.join(File.dirname(__FILE__), 'fixtures')
-def load_fixture(name)
-  File.read(File.join(FIXTURE_PATH, name))
-end
-
 RSpec.describe Abstractifier do
   let(:instance) { described_class.new(max: 50, min: 20) }
 
