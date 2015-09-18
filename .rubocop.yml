@@ -1,0 +1,7 @@
+Style/Documentation:
+  Enabled: false
+
+# Due to conditional loading of Rubocop
+Lint/HandleExceptions:
+  Exclude:
+    - Rakefile
