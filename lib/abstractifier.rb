@@ -48,8 +48,8 @@ class Abstractifier
     end
   end
 
-  def tidy(str)
-    str
+  def tidy(string)
+    string
       .gsub(/[[:space:]]+/, ' ')
       .gsub(/[[:space:]](,|\.)/, '\1')
       .strip
