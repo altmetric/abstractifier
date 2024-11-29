@@ -1,4 +1,4 @@
-# Abstractifier [![Build Status](https://travis-ci.org/altmetric/abstractifier.svg?branch=master)](https://travis-ci.org/altmetric/abstractifier)
+# Abstractifier
 
 Builds a short abstract of a supplied text by extracting the first couple of
 sentences and trimming off punctuation etc.
@@ -40,6 +40,6 @@ abstractifier.abstractify("This abstract should be much shorter but long enough 
 
 ## License
 
-Copyright © 2015 Altmetric LLP
+Copyright © 2015-2024 Altmetric LLP
 
 Distributed under the MIT License.
